@@ -2022,7 +2022,7 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/farm_cover.jpg");
+		background-image: url("images/overlay.png"), url("../../images/farm_cover.JPG");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
