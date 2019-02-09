@@ -1,0 +1,80 @@
+/* New CSS */
+/* --------------------------------------- TOP NAVIGATION BAR --------------------------------------- */
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color:#fff;
+    font-weight: 500;
+}
+.navbar-dark .navbar-toggler {
+    color:rgba(255,255,255,.5);
+    border-color:rgba(255,255,255,.1);
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-text {
+    color:rgba(255,255,255,.5);
+}
+.navbar-dark .navbar-text a {
+    color:#fff;
+} 
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
+    color:#fff;
+}
+
+.nav-background {
+    background-color:#91402f!important;
+}
+a.nav-background:focus,
+a.nav-background:hover,
+button.nav-background:focus,
+button.nav-background:hover {
+    background-color:#1d2124!important;
+}
+/* --------------------------------------- HOMEPAGE ------------------------------------------ */
+.homepage {
+
+}
+
+/* --------------------------------------- CROP ------------------------------------------ */
+.crop {
+
+}
+
+/* --------------------------------------- FOOTER --------------------------------------------------- */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
