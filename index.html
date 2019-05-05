@@ -19,6 +19,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
+  
+  <!-- Custom styles for lightbox functionality-->
+  <link href="css/lightbox/ekko-lightbox.css" rel="stylesheet">
 
 </head>
 
@@ -105,6 +108,20 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- lightbox Javascript -->
+  <script src="vendor/lightbox/ekko-lightbox.js"></script>
+  <script src="vendor/lightbox/ekko-lightbox.js.map"></script>
+  <script src="vendor/lightbox/ekko-lightbox.min.js"></script>
+  <script src="vendor/lightbox/ekko-lightbox.min.js.map"></script>
+  
+  <!--lightbox script-->
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
 
 </body>
 
