@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lora';
-  background: url("../images/farm_cover_resized.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../images/farm_cover_resized.jpg");
+  background: url("../images/farm-cover-resized.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../images/farm-cover-resized.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -35,7 +35,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: Raleway;
   color: #972926;
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #FAAF83;
+  color: #972926;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {

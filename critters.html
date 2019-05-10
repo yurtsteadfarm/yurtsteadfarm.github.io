@@ -20,8 +20,11 @@
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
   
+  <!-- Custom styles for Yurtstead Farm -->
+  <link href="css/yurtstead-farm.css" rel="stylesheet">
+  
   <!-- Custom styles for lightbox functionality-->
-  <link href="css/lightbox/ekko-lightbox.css" rel="stylesheet">
+  <link href="css/ekko-lightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,7 +37,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Yurtstead Farm</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -73,7 +76,7 @@
             </h2>
           </div>
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/pigs_lying_resized.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/gallery/pigs-lying.jpg" alt="">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
             <p>We strive to create a living environment for our animals that relies on pasture, small herd or flock size, and frequent group movements to avoid the stress and health issues associated with continually inhabiting the same crowded pens or barns. The frequent movements benefit the health of the pasture, too. Our meat flocks and herds are pastured in large, moveable electrified enclosures so they can enjoy the benefits of foraging in fresh clover, alfalfa, and grasses.</p>
@@ -95,7 +98,7 @@
             </h2>
           </div>
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/turkey_puffed_resized.jpg" alt="">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="images/gallery/turkey-puffed.jpg" alt="">
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
             <p>Our turkeys are non-GMO, pasture-raised heritage birds. We raise Bourbon Reds, Standard Bronzes, and Royal Palms.</p>
@@ -109,40 +112,73 @@
   </section>
 
   <!-- Usage for lightbox:
-    <a href="url for full image" data-toggle="lightbox" data-gallery="name for gallery" data-title="Optional title in upper left" data-footer="Optional footer in lower right">
-      <img src="url for thumbnail" class="img-fluid"
-  -->
-
-  <a href="https://unsplash.it/1200/768.jpg?image=250" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">
-    <img src="https://unsplash.it/600.jpg?image=250" class="img-fluid">
-</a>
-
   <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="row">
-            <a href="https://www.dropbox.com/preview/Archive/For%20Kate/Website%20photos%20for%20kate/DSCF3595.JPG?role=personal" data-toggle="lightbox" data-gallery="critter-gallery" class="col-sm-4">
-                <img src="/images/thumbnails/chickens-in-enclosure-thumbnail.JPG" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-            </a>
-        </div>
-        <div class="row">
-            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-            </a>
-        </div>
+          <a href="url for full image" data-toggle="lightbox" data-gallery="name for gallery" data-title="Optional title in upper left" data-footer="Optional footer in lower right">
+            <img src="url for thumbnail" class="img-fluid">
+          </a>
+        </div> -- use as many rows as you'd like
+      </div>
     </div>
-</div>
+  -->
+
+  <!--Note to self: use one image for major categories and hide the rest:
+  Turkeys
+  Pigs
+  Chickens
+  Ducks-->
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex mr-auto rounded">
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-lower">Photo Gallery</span>
+              <span class="section-heading-upper">Click to see more</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+            <div class="row justify-content-center" id="critter-gallery">
+              <div class="col-md-8">
+                <div class="row">
+                  <a href="images/gallery/pigs-lying.JPG" data-toggle="lightbox" data-gallery="critter-gallery" class="col-sm" data-title="Pigs">
+                    <img src="images/thumbnails/pigs-lying-thumbnail.JPG" class="img-fluid">
+                  </a>
+                  <a href="images/gallery/turkey-puffed.JPG" data-toggle="lightbox" data-gallery="critter-gallery" class="col-sm" data-title="Turkeys">
+                    <img src="images/thumbnails/turkeys-puffed-thumbnail.JPG" class="img-fluid">
+                  </a>
+                  <a href="images/gallery/chickens.JPG" data-toggle="lightbox" data-gallery="critter-gallery" class="col-sm" data-title="Chickens">
+                    <img src="images/thumbnails/chickens-thumbnail.JPG" class="img-fluid">
+                  </a>
+                  <a href="images/gallery/ducks.JPG" data-toggle="lightbox" data-gallery="critter-gallery" class="col-sm" data-title="Ducks">
+                    <img src="images/thumbnails/ducks-thumbnail.JPG" class="img-fluid">
+                  </a>
+                </div>
+                <div class="row">
+                  <!-- elements not showing, use data-remote -->
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/pig-lineup.JPG" data-title="Piglets"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/pigs-standing.JPG" data-title="Pigs"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/pigs-eating-apples.JPG" data-title="Pigs"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkey-standing-unpuffed.JPG" data-title="Turkeys"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkey-puffed.JPG" data-title="Turkeys"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkeys-in-field.JPG" data-title="Turkeys"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkey-side-profile.JPG" data-title="Turkeys" data-footer="Is this my good side?"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkeys-jenn-feeding.JPG" data-title="Turkeys" data-footer="Jenn feeding the turkeys"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkeys-on-roost.JPG" data-title="Turkeys"data-footer="On their roost"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/turkeys-plaintive-jenn.JPG" data-title="Turkeys"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/eggs.JPG" data-title="Eggs"></div>
+                  <div data-toggle="lightbox" data-gallery="critter-gallery" data-remote="images/gallery/chickens-in-enclosure.JPG" data-title="Chickens" data-footer="In the enclosure"></div>
+                </div>
+              </div>
+            </div>
+              
+
+
+
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
