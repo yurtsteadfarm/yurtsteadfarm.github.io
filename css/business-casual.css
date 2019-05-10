@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lora';
-  background: url("../images/farm-cover-resized.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../images/farm-cover-resized.jpg");
+  background: url("../images/farm-cover-resized.JPG");
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../images/farm-cover-resized.JPG");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
