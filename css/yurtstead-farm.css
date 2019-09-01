@@ -39,6 +39,16 @@ h2 .section-heading-lower {
     padding: 0;
 }
 
+.turkey-banner {
+    max-width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: #FAAF83;
+    color:#5F472C;
+    border-color: #972926;
+    margin-top: 1em;
+}
+
 @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
         font-size: 2rem;
