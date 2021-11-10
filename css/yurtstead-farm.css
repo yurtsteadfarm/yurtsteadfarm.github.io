@@ -17,6 +17,11 @@
     font-size: 6rem;
 }
 
+.contact-img {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
 #mainNav {
     font-size: 2rem;
     font-family: 'Swistblnk Monthoers Regular';
